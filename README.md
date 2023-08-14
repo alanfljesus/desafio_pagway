@@ -7,9 +7,8 @@ Simple Payment Service Provider (PSP)
 <p align="center">
 <a href="#dependências">Dependências</a> | 
 <a href="#configurações">Configurações</a> | 
-<a href="#executar">Executar</a> | 
-<a href="#documentação">API</a>
-<a href="#deploy">Deploy</a>
+<a href="#documentação">API</a> |
+<a href="#deploy">Deploy</a> 
 </p>
 
 ---
