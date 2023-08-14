@@ -37,8 +37,8 @@ export const checkouts = async (req: Request, res: Response) => {
   const payable = await prisma.payable.create({
    data: {
     checkoutId: checkout.id,
-    status_pagamento: "liquidado",
-    // status_pagamento: "pendente",
+    // status_pagamento: "liquidado",
+    status_pagamento: "pendente",
     data_pagamento: dataPagamento,
     valor_receber: valorReceber,
     taxa_pagamento: taxaPagamento,
