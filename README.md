@@ -37,6 +37,16 @@ DATABASE_URL="postgresql://johndoe:randompasswordlocalhost:5432/mydb?schema=publ
 
 ```npm run start``` ou  ```yarn dev```
 
+- Prisma ORM
+
+3. Para criar uma nova migration:
+   
+```npx prisma migrate dev```
+
+4. Visualizar o banco de dados:
+   
+```npx prisma studio```
+
 ## Documentação
 A documentação da API está disponível através do Swagger UI. Após executar o servidor localmente, você pode acessar a documentação em:
 ```
