@@ -53,10 +53,10 @@ A documentação da API está disponível através do Swagger UI. Após executar
 http://localhost:3333/docs
 ```
 Para versão em produção, visite: </br>
-**OBS:** Ao usar a documentação Swagger da API em produção, certifique-se de selecionar "API de produção" em "servers".
 ```
 https://desafio-pagway.onrender.com/docs
 ```
+**OBS:** Ao usar a documentação Swagger da API em produção, certifique-se de selecionar "API de produção" em "servers".
 
 ## Deploy
 O projeto está atualmente hospedado no <a href="https://render.com">Render</a>.
