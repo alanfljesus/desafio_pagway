@@ -1,7 +1,7 @@
 import express from 'express';
 import swaggerUi from 'swagger-ui-express';
 import bodyParser from 'body-parser';
-// import cors from 'cors';
+import cors from 'cors';
 import { checkouts } from './controllers/checkouts.controller';
 import { consult } from './controllers/consult.controller';
 
@@ -12,9 +12,9 @@ const PORT = process.env.PORT ? Number(process.env.PORT) : 3333;
 
 const app = express();
 
-// app.use(cors({
-//  origin: 'https://desafiopagway-api.onrender.com'
-// }));
+app.use(cors({
+ origin: 'https://desafio-pagway.onrender.com'
+}));
 
 app.use(bodyParser.json());
 
